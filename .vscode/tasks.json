@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "json:server",
+			"problemMatcher": [],
+			"label": "npm: json:server",
+			"detail": "json-server --watch Students.json"
+		}
+	]
+}

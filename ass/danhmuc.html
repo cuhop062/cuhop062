@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="/JS/angular.min.js"></script>
+    <script src="/JS/jquery-3.4.1.slim.min.js"></script>
+    <script src = "/JS/popper.min.js"></script>
+    <script src="/JS/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/CSS/layout.css">
+    <script src="/JS/quizApp.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/CSS/danhmuc.css">
+    <title>ASS</title>
+  </head>
+  <body ng-app="myApp"  >
+    <div class="container">
+    <header class="l-header">
+        <nav class="nav bd-grid">
+          <div>
+            <a class="nav__logo" href="/ass/index.html"><img src="/images/adwords.png" alt="" class="img-fluid"></a>
+          </div>
+    
+          <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+          </div>
+    
+          <div class="nav__menu" id="nav-menu">
+            <div class="nav__close" id="nav-close">
+              <i class='bx bx-x'></i>
+            </div>
+    
+            <ul class="nav__list">
+              <li class="nav__item"><a href="/ass/index.html" class="nav__link active"> <i class="fas fa-home"></i> Trang
+                  Chủ <span class="sr-only">(current)</span></a></li>
+              <li class="nav__item"><a href="/ass/gioithieu.html" class="nav__link"><i class="far fa-user-circle"></i> Giới
+                  thiệu</a></li>
+              <li class="nav__item"><a href="#!/subjects" class="nav__link"><i class="fab fa-leanpub"></i> Danh mục</a>
+              </li>
+              <li class="nav__item"><a href="/ass/contact.html" class="nav__link"><i class="fas fa-phone-volume"></i> Liên
+                  Hệ</a></li>
+              <li class="nav__item"><a href="/ass/gopy.html" class="nav__link"><i class="fas fa-book-reader"></i> Góp
+                  Ý</a></li>
+              <li class="nav__item"><a href="/ass/dangky.html#!/hoidap" class="nav__link"><i class="fas fa-comments"></i> Hỏi đáp
+              </li>
+              <li class="nav__item dropdown">
+                <a class="nav__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Tài khoản
+                </a>
+                <div class="dropdown-content">
+                  <div ng-show="student == null">
+                  <a class="dropdown-item" href="/ass/dangky.html#!/register">Đăng ký</a>
+                  <a class="dropdown-item" href="/ass/dangky.html#!/login">Đăng nhập</a>
+                  <a class="dropdown-item" href="/ass/dangky.html#!/quenmk">Quên mật khẩu</a>
+                  </div>
+                  <div ng-hide="student == null" class="ng-hide">
+                  <div class="dropdown-divider"> </div>
+
+                  <a class="dropdown-item" href="/ass/dangky.html#!/logout">Log out</a>
+                  <a class="dropdown-item" href="/ass/dangky.html#!/doimk">Đổi mật khẩu</a>
+                  <a class="dropdown-item" href="#">Cập nhật tài khoản</a>
+              </div>
+              </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+       <section class="row mt-5" >
+       <div ng-view></div>
+       </section>
+       <footer>
+        <div class="footer container mt-3">
+          <h2>MY NAME IS A HOP</h2>
+          <div class="social-icon">
+            <div class="social-item">
+              <a href="https://www.facebook.com/060201ahop"><img
+                  src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" width="50" height="50"></a>
+            </div>
+            <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" width="50"
+                  height="50" /></a>
+            </div>
+            <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" width="50" height="50" /></a>
+            </div>
+            <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" width="50" height="50" /></a>
+            </div>
+          </div>
+          <p> @ 2021 AHop. All rights reserved</p>
+        </div>
+      </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <scrip src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></scrip>
+    <scrip src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></scrip>
+    <sc src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></sc>
+  </body>
+</html>

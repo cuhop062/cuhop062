@@ -1,0 +1,52 @@
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a class="nav__logo" href="#index"><img src="/images/adwords.png" alt="" class="img-fluid"></a>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <div class="nav__close" id="nav-close">
+                <i class='bx bx-x'></i>
+            </div>
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#index" class="nav__link active"> <i class="fas fa-home"></i> Trang
+                        Chủ <span class="sr-only">(current)</span></a></li>
+                <li class="nav__item"><a href="#!about" class="nav__link"><i
+                            class="far fa-user-circle"></i> Giới thiệu</a></li>
+                <li class="nav__item"><a href="#subjects" class="nav__link"><i class="fab fa-leanpub"></i> Danh mục</a>
+                </li>
+                <li class="nav__item"><a href="#contact" class="nav__link"><i class="fas fa-phone-volume"></i> Liên
+                        Hệ</a></li>
+                <li class="nav__item"><a href="#feedback" class="nav__link"><i class="fas fa-book-reader"></i> Góp
+                        Ý</a></li>
+                <li class="nav__item"><a href="#FAQ" class="nav__link"><i class="fas fa-comments"></i> Hỏi đáp
+                </li>
+                <li class="nav__item dropdown">
+                    <a class="nav__link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tài khoản
+                    </a>
+                    <div class="dropdown-content">
+                        <div ng-show="student == null">
+                        <a class="dropdown-item" href="">Đăng ký</a>
+                        <a class="dropdown-item" href="">Đăng nhập</a>
+                        <a class="dropdown-item" href="">Quên mật khẩu</a>
+                        </div>
+                        <div ng-hide="student == null" class="ng-hide">
+                        <div class="dropdown-divider"> </div>
+
+                        <a class="dropdown-item" href="">Log out</a>
+                        <a class="dropdown-item" href="">Đổi mật khẩu</a>
+                        <a class="dropdown-item" href="#">Cập nhật tài khoản</a>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

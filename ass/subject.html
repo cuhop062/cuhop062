@@ -1,0 +1,23 @@
+<div class="container my-5" id="content">
+    <div class="card-body">
+    <div class="subjects">
+        <h2> Các Môn học</h2>
+    </div>
+    <div class="row">
+        <div class="col-6 subjects-item" ng-repeat="item in list_subject">
+            <div class="subjects-item-image">
+                <img src="/images/logos/{{item.Logo}}">
+            </div>
+            <div class="subjects-item-text">
+                <div class="subjects-item-text-main">
+                    <div>
+                        <div>{{item.Name}}</div>
+                        <div class="subjects-item-title-subtext">Test online - Chắc kiến thức, vững tương lai</div>
+                    </div>
+                    <a class="btn btn-primary-gradient" href="#!quizz/{{item.Id}}/{{item.Name}}" role="button">TEST NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

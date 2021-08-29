@@ -1,0 +1,15 @@
+
+    <div class="loginbox">
+        <img src="/images/icons/avatar.png" class="avatar">
+        <h1>Login Here</h1>
+        <form ng-submit="submitLogin()">
+            <p>Username</p>
+            <input type="text" required maxlength="50"  ng-model="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" required maxlength="30" ng-model="password" placeholder="Enter Password">
+            <input type="submit"  ng-click="checkLogin()" value="Login">
+            <a href="/ass/dangky.html#!/quenmk">Lost your password?</a><br>
+            <a href="/ass/dangky.html#!/register">Don't have an account?</a>
+        </form>
+
+    </div>

@@ -1,0 +1,124 @@
+{
+  "listStudent": [
+    {
+      "id": 1,
+      "username": "AHop",
+      "password": "ahop0602",
+      "fullname": "A Hộp",
+      "email": "hopapd03955@fpt.edu.vn",
+      "gender": "true",
+      "birthday": "2001-02-06",
+      "phone": "0386660546"
+    },
+    {
+      "id": 2,
+      "username": "pheonv",
+      "password": "iloveyou",
+      "fullname": "Nguyễn Văn Chí Phèo",
+      "email": "pheonv@fpt.edu.vn",
+      "gender": "true",
+      "birthday": "1985-10-11",
+      "phone": "0386660546"
+    },
+    {
+      "id": 3,
+      "username": "nopt",
+      "password": "iloveyou",
+      "fullname": "Phạm Thị Nở",
+      "email": "nopt@fpt.edu.vn",
+      "gender": "false",
+      "birthday": "1993-05-15",
+      "phone": "0386660546"
+    },
+    {
+      "id": 0.5605866721203641,
+      "username": "AHop",
+      "password": "ahop0602",
+      "fullname": "A Hộp",
+      "email": "hopapd03955@fpt.edu.vn",
+      "gender": "male",
+      "birthday": "2001-02-05T17:00:00.000Z",
+      "phone": "0386660546"
+    },
+    {
+      "id": 0.001497745798755501
+    },
+    {
+      "id": 0.37813058609485184,
+      "gender": "female"
+    },
+    {
+      "id": 0.3265437595000016,
+      "gender": "female"
+    },
+    {
+      "id": 0.7153443124247323,
+      "gender": "male"
+    },
+    {
+      "id": 0.0055593175115695725,
+      "gender": "male"
+    },
+    {
+      "id": 0.06716014490883593,
+      "gender": "female"
+    },
+    {
+      "id": 0.26390410810778486,
+      "gender": "male"
+    },
+    {
+      "id": 0.5852089576905433,
+      "username": "evwe",
+      "password": "ẻverver",
+      "fullname": "ẻver",
+      "email": "fd",
+      "birthday": "2021-03-30T17:00:00.000Z",
+      "phone": "vẻverv"
+    },
+    {
+      "id": 0.7746390982614997
+    },
+    {
+      "id": 0.8089705222928218
+    },
+    {
+      "id": 0.9789453351902202
+    },
+    {
+      "id": 0.6545354022607388
+    },
+    {
+      "id": 0.07998636542333237
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "gender": "male",
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "username": "asd",
+      "password": "132",
+      "fullname": "asd",
+      "email": "asd",
+      "gender": "male",
+      "birthday": "2021-03-31T17:00:00.000Z",
+      "phone": "213124124",
+      "id": 10
+    }
+  ]
+}

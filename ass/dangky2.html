@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form >
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required ng-model="username">
+          </div>
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required ng-model="fullname">
+          </div>
+          
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required ng-model="email">
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required ng-model="phone">
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required ng-model="password">
+          </div>
+          <div class="input-box">
+            <span class="details">Birth Day</span>
+            <input type="date" placeholder="Confirm your birthday" required ng-model="birthday">
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="male" id="dot-1" ng-model="gender" value="male">
+          <input type="radio" name="female" id="dot-2" ng-model="gender" value="female">
+          <span class="gender-title">Gender</span>
+          <div class="category text-center">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" ng-click="postdata()" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
